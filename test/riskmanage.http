@@ -1,0 +1,6 @@
+@host = localhost:4004
+@srv = service/RiskManageSvcs
+
+GET http://{{host}}/{{srv}}/Risks?&$expand=mitigations($expand=actions)
+
+GET http://{{host}}/{{srv}}/Mitigations?&expand=actions

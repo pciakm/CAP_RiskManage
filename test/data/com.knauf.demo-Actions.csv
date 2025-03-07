@@ -1,0 +1,6 @@
+ID;validFrom;validTo;description;repetitive;mitigations_id
+20466921-7d57-4e76-b14c-f5443e44;2021-05-01T00:00:00;9999-12-31T00:00:00;send a remainder to review the contractors;true;20466921-7d57-4e76-b14c-e53fd97dcb12
+20466921-7d57-4e76-b14c-f5443e45;2021-05-01T00:00:00;9999-12-31T00:00:00;renew the expired contracts;true;20466921-7d57-4e76-b14c-e53fd97dcb12
+20466921-7d57-4e76-b14c-f5443e46;2021-05-01T00:00:00;2021-05-01T23:59:59;construct the blacklist;;20466921-7d57-4e76-b14c-e53fd97dcb13
+20466921-7d57-4e76-b14c-f5443e47;2021-05-01T00:00:00;2023-04-30T00:00:00;review the shipments daily;true;20466921-7d57-4e76-b14c-e53fd97dcb13
+20466921-7d57-4e76-b14c-f5443e48;2021-05-01T00:00:00;2023-04-30T00:00:00;review the deliveries with issues weekly;true;20466921-7d57-4e76-b14c-e53fd97dcb11
