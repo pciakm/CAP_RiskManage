@@ -1,0 +1,5 @@
+{
+  "ProjectOverviewURL": "https://sap-ecc-mission-r5417w3s.launchpad.cfapps.eu20.hana.ondemand.com/lcapRiskManage.RiskManageLaunchpad-1.0.0/",
+  "DeployedUTCTime": "2025-03-07T15:16:58.978Z",
+  "ApplicationLogURL": "https://logs.cf.eu20-001.hana.ondemand.com/app/dashboards#/view/Overview?_g=(filters:!((query:(match_phrase:(component_name:RiskManage-srv)))))"
+}

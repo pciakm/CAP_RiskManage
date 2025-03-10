@@ -1,3 +1,5 @@
+using { BusinessPartnerA2X } from './external/BusinessPartnerA2X.cds';
+
 using { com.knauf.demo as my } from '../db/schema';
 
 @path : '/service/RiskManageSvcs'
@@ -34,6 +36,17 @@ service RiskManageService
 
     entity Actions as
         projection on my.Actions;
+
+    entity A_BusinessPartner as
+        projection on BusinessPartnerA2X.A_BusinessPartner
+        {
+            BusinessPartner,
+            Customer,
+            Supplier,
+            BusinessPartnerCategory,
+            BusinessPartnerFullName,
+            BusinessPartnerIsBlocked
+        };
 }
 
 annotate RiskManageService with @requires :

@@ -19,6 +19,102 @@
       "env": {
         "run.config": "{\"handlerId\":\"lcap_run_config_handler_id\",\"runnableId\":\"{\\\"projectPath\\\":\\\"/home/user/projects/RiskManage\\\",\\\"profileName\\\":\\\"\\\"}\"}"
       }
+    },
+    {
+      "name": "Business Partner (A2X)",
+      "runtimeExecutable": "cds",
+      "request": "launch",
+      "killBehavior": "polite",
+      "args": [
+        "watch",
+        "--open"
+      ],
+      "console": "internalConsole",
+      "internalConsoleOptions": "openOnSessionStart",
+      "type": "pwa-node",
+      "cwd": "${workspaceFolder}/",
+      "preLaunchTask": "dev-project",
+      "envFile": "${workspaceFolder}/env/.env2",
+      "env": {
+        "run.config": "{\"handlerId\":\"lcap_run_config_handler_id\",\"runnableId\":\"{\\\"projectPath\\\":\\\"/home/user/projects/RiskManage/\\\",\\\"profileName\\\":\\\"\\\"}\"}"
+      }
+    },
+    {
+      "name": "Business Partner (A2X)2",
+      "runtimeExecutable": "cds",
+      "request": "launch",
+      "killBehavior": "polite",
+      "args": [
+        "watch",
+        "--open"
+      ],
+      "console": "internalConsole",
+      "internalConsoleOptions": "openOnSessionStart",
+      "type": "pwa-node",
+      "cwd": "${workspaceFolder}/",
+      "preLaunchTask": "dev-project",
+      "envFile": "${workspaceFolder}/env/.env3",
+      "env": {
+        "run.config": "{\"handlerId\":\"lcap_run_config_handler_id\",\"runnableId\":\"{\\\"projectPath\\\":\\\"/home/user/projects/RiskManage/\\\",\\\"profileName\\\":\\\"\\\"}\"}"
+      }
+    },
+    {
+      "name": "Business Partner (A2X)3",
+      "runtimeExecutable": "cds",
+      "request": "launch",
+      "killBehavior": "polite",
+      "args": [
+        "watch",
+        "--open"
+      ],
+      "console": "internalConsole",
+      "internalConsoleOptions": "openOnSessionStart",
+      "type": "pwa-node",
+      "cwd": "${workspaceFolder}/",
+      "preLaunchTask": "dev-project",
+      "envFile": "${workspaceFolder}/env/.env4",
+      "env": {
+        "run.config": "{\"handlerId\":\"lcap_run_config_handler_id\",\"runnableId\":\"{\\\"projectPath\\\":\\\"/home/user/projects/RiskManage/\\\",\\\"profileName\\\":\\\"\\\"}\"}"
+      }
+    },
+    {
+      "name": "Business Partner (A2X)4",
+      "runtimeExecutable": "cds",
+      "request": "launch",
+      "killBehavior": "polite",
+      "args": [
+        "watch",
+        "--open"
+      ],
+      "console": "internalConsole",
+      "internalConsoleOptions": "openOnSessionStart",
+      "type": "pwa-node",
+      "cwd": "${workspaceFolder}/",
+      "preLaunchTask": "dev-project",
+      "envFile": "${workspaceFolder}/env/.env5",
+      "env": {
+        "run.config": "{\"handlerId\":\"lcap_run_config_handler_id\",\"runnableId\":\"{\\\"projectPath\\\":\\\"/home/user/projects/RiskManage/\\\",\\\"profileName\\\":\\\"\\\"}\"}"
+      }
+    },
+    {
+      "name": "Run RiskManage-Live Data",
+      "runtimeExecutable": "cds",
+      "request": "launch",
+      "killBehavior": "polite",
+      "args": [
+        "watch",
+        "--open"
+      ],
+      "console": "internalConsole",
+      "internalConsoleOptions": "openOnSessionStart",
+      "type": "pwa-node",
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "PreLaunchTask for Run RiskManage-Live Data",
+      "envFile": "${workspaceFolder}/env/.env6",
+      "env": {
+        "run.config": "{\"handlerId\":\"lcap_run_config_handler_id\",\"runnableId\":\"{\\\"projectPath\\\":\\\"/home/user/projects/RiskManage\\\",\\\"profileName\\\":\\\"\\\"}\"}",
+        "runConfigurations": "{\"odataBinding\":{\"BusinessPartnerA2X\":{\"destination\":\"APIhub_sandbox\",\"type\":\"Destination\",\"path\":\"s4hanacloud/sap/opu/odata/sap/API_BUSINESS_PARTNER\"}}}"
+      }
     }
   ]
 }

@@ -1,5 +1,7 @@
 namespace com.knauf.demo;
 
+using { BusinessPartnerA2X } from '../srv/external/BusinessPartnerA2X.cds';
+
 using
 {
     Country,
@@ -21,6 +23,7 @@ entity Risks : managed
     impact : Integer;
     criticality : String;
     mitigations : Association to one Mitigations;
+    supplier : Association to one BusinessPartnerA2X.A_BusinessPartner;
 }
 
 entity Mitigations : managed
